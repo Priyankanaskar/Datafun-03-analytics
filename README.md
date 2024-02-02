@@ -1,22 +1,31 @@
-# Datafun-03-analytics
-# datafun-03-project
+# datafun-03-analytics
 
-## Create Project Virtual Environment
+Professional analytics project using Git, Python, venv, pip, and VS Code to read and process data.
+Commands were used on a Windows machine running PowerShell.  
 
-On Windows, create a project virtual environment in the .venv folder. 
+## Create and Activate Project Virtual Environment
 
 ```shell
-
 py -m venv .venv
 .venv\Scripts\Activate
-py -m pip install -r requirements.txt
-
+py -m pip install -r "requirements.txt"
 ```
 
-## Git add and commit 
+## Freeze Requirements
+
+```shell
+py -m pip freeze > requirements.txt
+```
+
+## Git Add / Commit / Push 
 
 ```shell
 git add .
-git commit -m "add .gitignore, cmds to readme"
-git push origin main
+git commit -m "add .gitignore, commands to README.md"
+git push -u origin main
 ```
+
+This project is buildup by Priyanka Naskar 
+Date - 26 Jan 24
+
+https://github.com/Priyankanaskar/Datafun-03-analytics
